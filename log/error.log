@@ -1,0 +1,10 @@
+O sistema n∆o pode encontrar o caminho especificado.
+Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from flask import Flask, render_template,redirect, url_for, send_from_directory, flash
+ImportError: No module named flask
+O sistema n∆o pode encontrar o caminho especificado.
+Traceback (most recent call last):
+  File "app.py", line 3, in <module>
+    from flask import Flask, render_template,redirect, url_for, send_from_directory, flash
+ImportError: No module named flask
