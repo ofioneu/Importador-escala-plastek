@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='pin.ico') }}">
 
-    <title>Importador Viscofan</title>
+    <title>Importador Plastek</title>
 </head>
 <body>
     
     <div class ="container">
          
         <div class="form-group">
-            <h1>Importador Escala Viscofan</h1> 
+            <h1>Importador Escala Plastek</h1> 
         <form method="POST" action="/">
             {{ form.csrf_token }}
             <br>{{ form.url.label }} {{ form.url(size=100) }}</br>
